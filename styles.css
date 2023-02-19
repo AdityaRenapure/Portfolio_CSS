@@ -1,0 +1,167 @@
+body{
+    
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+    /*Center align will chnage the alignement except the elements having width*/
+}
+
+::-webkit-scrollbar {  /* To hide the scrollbar*/
+    display: none;
+}
+
+h1{
+   font-size: 5.60rem; /*Dynamic Font Size  1em=16px=100%  This em is different from <em> tag */ 
+   /* px is a static size 
+        rem doesn't consider the parent settings*/
+   font-family: 'Sacramento', cursive;
+   margin-top: 50px;
+   width:30%;
+   margin:0 auto 0 auto;
+   color:#023030;
+   line-height: 2; /*gives gap between whatever on the top and bottom of the tag*/
+}
+.text{
+    font-size:1rem; 
+    color:#023030;
+    font-weight: normal; /* thickness*/
+}
+
+
+/*
+    Margin
+            Border
+                    Padding
+                              Content 
+                                
+
+                              */
+
+
+
+h3{
+color: blueviolet;
+ }
+
+ a{
+    color:#11999E;
+ }
+.top-container{
+    background-color: #66BFBF;
+    
+    padding-top:100px;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    
+    top:40px;
+    right:300px;
+}
+.bottom-cloud{
+    position: absolute;
+    
+    bottom:350px;
+   left:300px;
+}
+
+
+.skill-row{
+    position: relative;
+    margin:0 20px 0 0;
+}
+ 
+.pmy{
+    max-height:200px;
+}
+
+.skill-row{
+    position: relative;
+    width:50%;
+    margin:auto;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row1{
+    position: relative;
+    width:50%;
+    margin:auto;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coding{
+    float:left;  /*wraps the other elements along the selected property*/
+    padding-right:50px;
+}
+
+.coding1{
+    float:right;  /*wraps the other elements along the selected property*/
+    padding-left:50px;
+}
+
+/* Clear property is used to clear the wrapping on the elements mentioned side*/
+
+
+.btn {
+    background: #0094f7;
+    background-image: -webkit-linear-gradient(top, #0094f7, #2980b9);
+    background-image: -moz-linear-gradient(top, #0094f7, #2980b9);
+    background-image: -ms-linear-gradient(top, #0094f7, #2980b9);
+    background-image: -o-linear-gradient(top, #0094f7, #2980b9);
+    background-image: linear-gradient(to bottom, #0094f7, #2980b9);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 13px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .end-footer{
+
+    background-color: #66BFBF;
+    padding-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .footer-link{
+    color:#023030;
+  }
+
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-width: 8px;
+    
+    width: 10%;
+  }
+
+  a{
+    text-decoration: none;
+    
+  }
+
+  a:hover{
+    color:white;
+  }
